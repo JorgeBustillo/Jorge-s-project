@@ -1,0 +1,34 @@
+"""
+Spyder Editor
+
+This is a temporary script file.
+"""
+
+#A string
+class_name = "p5_Delinquets"
+#Error: class_name + 5            You cannot continue a string and number
+student1 = "Jorge"
+top_delinquets = student1 + ", Nicholas, Gionna, Danny"
+class_students = class_name + top_delinquets
+
+
+print(class_name)
+same_name = "2"
+third_student = 3
+print(type(same_name))
+student2 = "Jorge" + same_name
+print(student2)
+student3 = "Jorge" +str(third_student)
+print(student3)# -*- coding: utf-8 -*-
+
+#Int
+grade1 = input("What grade did you get in p1? ")
+garde2 = input("What grade did you get in p2? ")
+grade3 = input("What grade did you get in p3? ")
+grade4 = input("What grade did you get in p4? ")
+
+print("To verify: You scored: " + "In" + str(grade1) + "In"
+     + str(grade2) + "In" + str(grade3) "In" + str(grade4))
+gpa = (int(grade1) + int(grade2) + int(grade3) + int(grade4) / 4)
+print("GPA: str(gpa)")
+print(str(gpa))
